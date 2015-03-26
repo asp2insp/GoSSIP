@@ -4,4 +4,14 @@ GoSSIP is a stream oriented framework with snapshotting utilities. This means th
 
 For most use cases use of the streams will result in better performance.
 
-##
+## from
+## until
+## property
+## authorType
+## before
+## after
+## around
+
+Each returns a filtered stream. filtered streams are lazily built so each message is only queried once per filtered view.
+
+when a filtered view is created, it runs through all available historical data, then continues to update whenever new data is available.
