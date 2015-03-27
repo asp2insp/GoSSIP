@@ -23,4 +23,4 @@ Takes care of data replication, ordering, and synchronization between lots of no
 
 ### What's in a name?
 
-GoSSIP stands for Go Simple Stable Interconnected Pack (revisions welcome)
+GoSSIP stands for Go Simple Stable Interconnection Package (revisions welcome)
