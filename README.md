@@ -17,6 +17,9 @@ It's important to know the ordering of messages in a distributed system (after a
 
 # FAQ
 
+### Is it performant?
+Immutability, when done right, brings lots of performance benefits. For example, the entire API can be zero copy and equality by reference since actual messages are not passed along pipes, only references to them.
+
 ### That's a lot of keyword spam, what does this do for me?
 
 Takes care of data replication, ordering, and synchronization between lots of nodes (servers, clients, et). Provides a friendly API which makes it easy to build a realtime data application.
